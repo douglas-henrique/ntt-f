@@ -1,0 +1,19 @@
+.container { 
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 79%;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.loginButton {
+  background-color: black;
+  border-color: #000;
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+}

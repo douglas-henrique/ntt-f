@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+ 
+
+.searchInput {
+  width: 200px !important;
+  background-color: transparent;
+  font-family: 'League Spartan', sans-serif;
+  min-width: 300px;
+}
+
+.searchButton { 
+  background-color: black;
+  border-color: #000;
+}
+
+.resetButton { 
+  background-color: transparent;
+  font-family: 'League Spartan', sans-serif;
+}

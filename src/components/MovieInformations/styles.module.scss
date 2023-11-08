@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 50px;
+  min-height: 250px;
+}
+
+.informations { 
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 50px;
+}
+
+.description {
+  margin-top: 5px;
+}
+.actors {
+  margin-top: 20px;
+}
+.poster {
+  display: flex;
+  flex: 0.5;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.favoriteButton {
+  margin-top: 10px;
+  font-family: 'League Spartan', sans-serif;
+  width: 120px;
+  background-color: black;
+  border-color: black;;
+}
+
+.customPlaceHolder { 
+  font-family: 'League Spartan', sans-serif;
+  font-size: 50px;
+  align-self: center;
+}
